@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+}
+
+#navbar1{
+    height: 60px;
+    width: 100vw;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position:fixed;
+    top:0px;
+}
+
+#branddiv{
+    display: flex;
+    margin-left: 50px;
+    align-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+
+}
+#branddiv img{
+    height: 50px;
+    border-radius: 20px;
+}
+
+#branddiv label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+#nav-content-div{
+    width: 40%;
+    /* background-color: bisque; */
+    padding: 10px;
+    margin-left: 20px;
+}
+#nav-content-div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navitems{
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.navitems a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.navitems a:hover{
+    color: white;
+}
+
+#maindiv{
+    height: 60%;
+    width: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px gray;
+
+}
+
+#imgdiv{
+    height: 100%;
+    width: 40%;
+    background-image: url('../images/reg1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+#formdiv{
+    height: 100%;
+    padding: 20px;
+    width: 60%;
+    /* background-color: rgb(246, 187, 116); */
+    background-image: linear-gradient(30deg,rgb(113, 231, 247),rgb(9, 246, 147));
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#regform{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px;
+    gap: 25px;
+}
+
+.inputcontents{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 25px;
+}
+#submitbtn{
+    height: 40px;
+}
+
+#formdiv h3{
+    margin-left: 20%;
+}

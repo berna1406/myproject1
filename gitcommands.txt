@@ -1,0 +1,8 @@
+vs code commands:
+1. git init
+2. git add .
+3. git commit -m "Initial commit"
+4. git remote add origin https://github.com/berna1406/myproject1.git
+5. git branch -M main
+5. git push -u origin main - on error
+6. git push --force -u origin main
